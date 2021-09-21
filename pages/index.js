@@ -9,7 +9,7 @@ export default function Home() {
     if(primeraCarga){
         getBlogs()
     }
-  }, [primeraCarga, getBlogs]);
+  }, []);
 
   return (
       <Layout>
